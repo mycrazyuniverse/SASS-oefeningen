@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS naar SCSS</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+
+    <link
+      rel="stylesheet"
+      href="https://pixldesign.be/examples/sass-syntra.css"
+    />
+  </head>
+
+  <body id="each">
+    <!-- Add your site or application content here -->
+
+    <div class="container-fluid">
+      <h1 class="section-title">Each</h1>
+
+      <div class="oefening">
+        <div class="opgave">
+            <h2>each</h2>
+            <h3 class="opgave-title">opgave:</h3>
+            <p>
+            Werk verder op vorige oefening.
+            Schrijf volgende CSS naar SCSS gebruik de each functies.
+            <pre>
+                .title1 {
+                  color: darkorange;
+                }
+
+                .title2 {
+                  color: royalblue;
+                }
+
+                .title3 {
+                  color: springgreen;
+                }
+            </pre>
+            </p>
+            <h3 class="uitvoer-title">uitvoer:</h3>
+        </div>
+        <div class="uitvoer each">
+            <h1 class="title1">darkorange</h1>
+            <h2 class="title2">royalblue</h2>
+            <h3 class="title3">springgreen</h3>
+        </div>
+      </div>
+
+      <div class="oefening">
+        <div class="opgave">
+          <h3 class="opgave-title">opgave 2:</h3>
+          <p>Zet deze CSS om naar SCSS focus op gebruik van <b>map</b></p>
+          <p>
+            Deze oefening zet zich verder in volgende oefeningen. Zet in apart
+            bestand btn.scss werk verder op bestaande code
+          </p>
+          <pre>
+            .btn-primary {
+                cursor: pointer;
+                background-color: #6a7ed9;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-primary:hover{
+                background-color: #415bcf;
+            }
+
+            .btn-warning {
+                cursor: pointer;
+                background-color: #dda852;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-warning:hover {
+                background-color: #d39229;
+            }
+
+            .btn-error {
+                cursor: pointer;
+                background-color: #BF6A5B;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-error:hover{
+                background-color: #a65041;
+            }
+
+            .btn-success {
+                cursor: pointer;
+                background-color: #25d55f;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-success:hover{
+                background-color: #1daa4c;
+            }
+
+            .btn-disabled {
+                cursor: not-allowed;
+                background-color: #c1c1c1;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+          </pre>
+          <h3 class="uitvoer-title">uitvoer:</h3>
+        </div>
+        <div class="uitvoer">
+          <a class="btn-primary">primary</a>
+          <a class="btn-success">success</a>
+          <a class="btn-warning">success</a>
+          <a class="btn-error">error</a>
+          <a class="btn-disabled">disabled</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

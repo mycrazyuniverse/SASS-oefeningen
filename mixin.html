@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS naar SCSS</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+
+    <link
+      rel="stylesheet"
+      href="https://pixldesign.be/examples/sass-syntra.css"
+    />
+  </head>
+
+  <body id="mixin">
+    <!-- Add your site or application content here -->
+
+    <div class="container-fluid">
+      <h1 class="section-title">mixin</h1>
+      <div class="oefening">
+        <div class="opgave">
+          <h3 class="opgave-title">opgave 1:</h3>
+          <p>Schrijf volgende CSS aan de hand van een SCSS mixin.</p>
+          <pre>
+          
+            .box {
+                background-color: gray;
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+            }
+
+            .box-square {
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                -ms-border-radius: 0;
+                border-radius: 0;
+            }
+
+            .box-rounded {
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                border-radius: 10px;
+            }
+
+          </pre>
+          <p>
+            Daag jezelf uit en schrijf de mixin zelf! Net iets te ingewikkeld?
+            Dan kun de mixin die moet toepassen, hier zelf hier terug vinden.
+            <a
+              href="https://gist.github.com/mycrazyuniverse/a3faf825eacb5ab13e9b0b57a80475b8"
+              >https://gist.github.com/mycrazyuniverse/a3faf825eacb5ab13e9b0b57a80475b8</a
+            >
+          </p>
+          <h3 class="uitvoer-title">uitvoer:</h3>
+        </div>
+        <div class="uitvoer">
+          <div class="box box-rounded"></div>
+          <div class="box box-square"></div>
+        </div>
+      </div>
+
+      <div class="oefening">
+        <div class="opgave">
+          <h3 class="opgave-title">opgave 2:</h3>
+          <p>Schrijf volgende CSS aan de hand van een SCSS mixin.</p>
+          <pre>
+          
+            .box-rotate {
+              -webkit-transform: rotate(30deg);
+              -ms-transform: rotate(30deg);
+              transform: rotate(30deg);
+            }
+
+          </pre>
+          <p>
+            Deze keer moet je de mixin zelf schrijven, echter panikeer niet,
+            kijk naar voorbeeld geven in de vorige opgave voor hulp.
+          </p>
+          <h3 class="uitvoer-title">uitvoer:</h3>
+        </div>
+        <div class="uitvoer">
+          <div class="box box-rotate"></div>
+        </div>
+      </div>
+
+      <div class="oefening">
+        <div class="opgave">
+          <h3 class="opgave-title">opgave 3:</h3>
+          <p>Zet deze CSS om naar SCSS focus op gebruik van <b>mixins</b></p>
+          <p>
+            Deze oefening zet zich verder in volgende oefeningen. Zet in apart
+            bestand btn.scss werk verder op bestaande code
+          </p>
+          <pre>
+            .btn-primary {
+                cursor: pointer;
+                background-color: #6a7ed9;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-primary:hover{
+                background-color: #415bcf;
+            }
+
+            .btn-warning {
+                cursor: pointer;
+                background-color: #dda852;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-warning:hover {
+                background-color: #d39229;
+            }
+
+            .btn-error {
+                cursor: pointer;
+                background-color: #BF6A5B;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-error:hover{
+                background-color: #a65041;
+            }
+
+            .btn-success {
+                cursor: pointer;
+                background-color: #25d55f;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-success:hover{
+                background-color: #1daa4c;
+            }
+
+            .btn-disabled {
+                cursor: not-allowed;
+                background-color: #c1c1c1;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+          </pre>
+          <h3 class="uitvoer-title">uitvoer:</h3>
+        </div>
+        <div class="uitvoer">
+          <a class="btn-primary">primary</a>
+          <a class="btn-success">success</a>
+          <a class="btn-warning">success</a>
+          <a class="btn-error">error</a>
+          <a class="btn-disabled">disabled</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

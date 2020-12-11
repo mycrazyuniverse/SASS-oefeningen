@@ -1,0 +1,32 @@
+/*
+    Schrijf volgende CSS als nested SCSS
+*/
+
+a {
+    text-decoration: none;
+}
+
+a::hover {
+    text-decoration: underline;
+}
+
+
+/*
+  Schrijf volgende CSS als nested:
+*/
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+}

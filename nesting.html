@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS naar SCSS</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+
+    <link
+      rel="stylesheet"
+      href="https://pixldesign.be/examples/sass-syntra.css"
+    />
+  </head>
+
+  <body id="nesting">
+    <!-- Add your site or application content here -->
+
+    <div class="container-fluid">
+      <h1 class="section-title">Nesting</h1>
+      <div class="oefening">
+        <div class="opgave">
+          <h3 class="opgave-title">opgave 1:</h3>
+          <p>Schrijf volgende CSS als nested SCSS</p>
+          <pre>
+                  a {
+                      text-decoration: none;
+                  }
+
+                  a::hover {
+                      text-decoration: underline;
+                  }
+                  </pre
+          >
+          <h3 class="uitvoer-title">uitvoer:</h3>
+        </div>
+        <div class="uitvoer">
+          <a href="#">link</a>
+        </div>
+      </div>
+
+      <div class="oefening">
+        <div class="opgave">
+          <h3 class="opgave-title">opgave 2:</h3>
+          <p>Schrijf volgende CSS als nested SCSS</p>
+          <pre>
+                      nav ul {
+                          margin: 0;
+                          padding: 0;
+                          list-style: none;
+                      }
+
+                      nav li {
+                          display: inline-block;
+                      }
+
+                      nav a {
+                          display: block;
+                          padding: 6px 12px;
+                          text-decoration: none;
+                      }
+                  </pre
+          >
+          <h3 class="uitvoer-title">uitvoer:</h3>
+        </div>
+        <div class="uitvoer">
+          <nav>
+            <ul class="links">
+              <li class="link-item">
+                <a class="link" href="">link</a>
+              </li>
+              <li class="link-item">
+                <a class="link" href="">link</a>
+              </li>
+              <li class="link-item">
+                <a class="link" href="">link</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="oefening">
+        <div class="opgave">
+          <h3 class="opgave-title">opgave 3:</h3>
+          <p>Zet deze CSS om naar SCSS focus op gebruik van <b>nesting</b></p>
+          <p>
+            Deze oefening zet zich verder in volgende oefeningen. Zet in apart
+            bestand btn.scss werk verder op bestaande code
+          </p>
+          <pre>
+            .btn-primary {
+                cursor: pointer;
+                background-color: #6a7ed9;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-primary:hover{
+                background-color: #415bcf;
+            }
+
+            .btn-warning {
+                cursor: pointer;
+                background-color: #dda852;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-warning:hover {
+                background-color: #d39229;
+            }
+
+            .btn-error {
+                cursor: pointer;
+                background-color: #BF6A5B;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-error:hover{
+                background-color: #a65041;
+            }
+
+            .btn-success {
+                cursor: pointer;
+                background-color: #25d55f;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-success:hover{
+                background-color: #1daa4c;
+            }
+
+            .btn-disabled {
+                cursor: not-allowed;
+                background-color: #c1c1c1;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+          </pre>
+          <h3 class="uitvoer-title">uitvoer:</h3>
+        </div>
+        <div class="uitvoer">
+          <a class="btn-primary">primary</a>
+          <a class="btn-success">success</a>
+          <a class="btn-warning">success</a>
+          <a class="btn-error">error</a>
+          <a class="btn-disabled">disabled</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

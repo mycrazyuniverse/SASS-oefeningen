@@ -1,0 +1,37 @@
+/*
+  Schrijf volgende CSS aan de hand van een SCSS mixin.
+  Daag jezelf uit en schrijf de mixin zelf!
+
+  Net iets te ingewikkeld? 
+  Dan kun de mixin die moet toepassen, hier zelf hier terug vinden.
+  https://gist.github.com/mycrazyuniverse/a3faf825eacb5ab13e9b0b57a80475b8
+*/
+
+.box {
+    background-color: gray;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.box-square {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+
+.box-rounded {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* opgave 2 */
+
+.box-rotate {
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}

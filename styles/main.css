@@ -1,0 +1,322 @@
+/*
+    --------- VARIABLES ----------
+*/
+/*
+    Zet deze CSS over naar SCSS gebruik variabeles
+*/
+/* line 10, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 15, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+/* line 25, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+i {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+/*
+    Schrijf volgende CSS als nested SCSS
+*/
+/* line 37, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 41, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+a::hover {
+  text-decoration: underline;
+}
+
+/*
+    --------- NEST ----------
+*/
+/*
+    Schrijf volgende CSS als nested SCSS
+*/
+/* line 55, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 59, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+a::hover {
+  text-decoration: underline;
+}
+
+/*
+  Schrijf volgende CSS als nested:
+*/
+/* line 68, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 74, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+nav li {
+  display: inline-block;
+}
+
+/* line 78, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/*
+    --------- MATH ----------
+*/
+/*
+     Zorg dat deze div 50px breed en 25px hoog. Pas huidige waarden niet aan,
+     ipv. gebruik wiskundige formule om dit te bereiken.
+*/
+/* line 95, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.math {
+  width: 10px;
+  height: 20px;
+}
+
+/*
+    --------- COLOR ----------
+*/
+/*
+    Maak de 
+    circle1, moet huidige kleur 20% lichter
+    circle2, moet huidige kleur 30% donkerder
+    circle3, moet huidige kleur 60% transparantie hebben
+    circle4, moet huidige kleur omgezet worden in grijswaarden.
+    circle5, moet complimantair kleur van huidige kleur bevatten
+
+    gebruik enkel de bestaande SASS functies om dit te bereiken
+*/
+/* line 118, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-left: 10px;
+  float: left;
+}
+
+/* line 126, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.circle1 {
+  background-color: #1a73e8;
+}
+
+/* line 130, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.circle2 {
+  background-color: #1a73e8;
+}
+
+/* line 134, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.circle3 {
+  background-color: #1a73e8;
+}
+
+/* line 138, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.circle4 {
+  background-color: #1a73e8;
+}
+
+/* line 142, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.circle5 {
+  background-color: #1a73e8;
+}
+
+/*
+    --------- EXTEND ----------
+*/
+/*
+  Schrijf volgende CSS gebruik SCSS "extends" en variables
+*/
+/* line 156, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+a.twitter {
+  min-width: 100px;
+  padding: 1em;
+  border-radius: 1em;
+  background: #55acee;
+  color: #fff;
+}
+
+/* line 164, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+span.facebook {
+  min-width: 100px;
+  padding: 1em;
+  border-radius: 1em;
+  background: #3b5998;
+  color: #fff;
+}
+
+/*
+  Schrijf volgende CSS naar SCSS en gebruik het "extends" feature in SASS:
+*/
+/* line 176, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.success {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+  border-color: green;
+}
+
+/* line 183, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.error {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+  border-color: red;
+}
+
+/* line 190, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+  border-color: yellow;
+}
+
+/*
+    --------- Mixin ----------
+*/
+/*
+  Schrijf volgende CSS aan de hand van een SCSS mixin.
+  Daag jezelf uit en schrijf de mixin zelf!
+
+  Net iets te ingewikkeld? 
+  Dan kun de mixin die moet toepassen, hier zelf hier terug vinden.
+  https://gist.github.com/mycrazyuniverse/a3faf825eacb5ab13e9b0b57a80475b8
+*/
+/* line 212, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.box {
+  background-color: gray;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+/* line 219, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.box-square {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 226, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.box-rounded {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* opgave 2 */
+/* line 236, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.box-rotate {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+/*
+    --------- MAP ----------
+*/
+/*
+    Schrijf volgende CSS naar SCSS gebruik de map uitbreiding van variablen die wij net leerde.
+*/
+/* line 251, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.map .title1 {
+  color: darkorange;
+}
+
+/* line 255, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.map .title2 {
+  color: royalblue;
+}
+
+/* line 259, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.map .title3 {
+  color: springgreen;
+}
+
+/*
+    Zet deze CSS stap voor stap om naar SCSS
+*/
+/* line 268, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.btn-primary {
+  cursor: pointer;
+  background-color: #6a7ed9;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+/* line 276, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.btn-primary:hover {
+  background-color: #415bcf;
+}
+
+/* line 280, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.btn-warning {
+  cursor: pointer;
+  background-color: #dda852;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+/* line 288, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.btn-warning:hover {
+  background-color: #d39229;
+}
+
+/* line 292, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.btn-error {
+  cursor: pointer;
+  background-color: #BF6A5B;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+/* line 300, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.btn-error:hover {
+  background-color: #a65041;
+}
+
+/* line 304, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.btn-success {
+  cursor: pointer;
+  background-color: #25d55f;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+/* line 312, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.btn-success:hover {
+  background-color: #1daa4c;
+}
+
+/* line 316, ../../../../../../../../../../../../../Applications/MAMP/htdocs/syntra/sass/sass-oefeningen/SASS-oefeningen/styles/scss/main.scss */
+.btn-disabled {
+  cursor: not-allowed;
+  background-color: #c1c1c1;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+/*# sourceMappingURL=main.css.map */

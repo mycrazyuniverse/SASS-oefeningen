@@ -1,0 +1,44 @@
+/*
+  Schrijf volgende CSS gebruik SCSS "extends" en variables
+*/
+
+a.twitter {
+    min-width: 100px;
+    padding: 1em;
+    border-radius: 1em;
+    background: #55acee;
+    color: #fff;
+}
+
+span.facebook {
+    min-width: 100px;
+    padding: 1em;
+    border-radius: 1em;
+    background: #3b5998;
+    color: #fff;
+}
+
+
+/*
+  Schrijf volgende CSS naar SCSS en gebruik het "extends" feature in SASS:
+*/
+.success {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+    border-color: green;
+}
+
+.error {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+    border-color: red;
+}
+
+.warning {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+    border-color: yellow;
+}

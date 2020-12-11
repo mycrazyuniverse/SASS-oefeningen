@@ -1,0 +1,38 @@
+/*
+    Maak de 
+    circle1, moet huidige kleur 20% lichter
+    circle2, moet huidige kleur 30% donkerder
+    circle3, moet huidige kleur 60% transparantie hebben
+    circle4, moet huidige kleur omgezet worden in grijswaarden.
+    circle5, moet complimantair kleur van huidige kleur bevatten
+
+    gebruik enkel de bestaande SASS functies om dit te bereiken
+*/
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 10px;
+    float: left;
+}
+
+.circle1 {
+    background-color: #1a73e8;
+}
+
+.circle2 {
+    background-color: #1a73e8;
+}
+
+.circle3 {
+    background-color: #1a73e8;
+}
+
+.circle4 {
+    background-color: #1a73e8;
+}
+
+.circle5 {
+    background-color: #1a73e8;
+}

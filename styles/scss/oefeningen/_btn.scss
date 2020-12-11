@@ -1,0 +1,57 @@
+/* Stap voor stap zetten we deze buttons om naar SASS */
+
+.btn-primary {
+    cursor: pointer;
+    background-color: #6a7ed9;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.btn-primary:hover {
+    background-color: #415bcf;
+}
+
+.btn-warning {
+    cursor: pointer;
+    background-color: #dda852;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.btn-warning:hover {
+    background-color: #d39229;
+}
+
+.btn-error {
+    cursor: pointer;
+    background-color: #BF6A5B;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.btn-error:hover {
+    background-color: #a65041;
+}
+
+.btn-success {
+    cursor: pointer;
+    background-color: #25d55f;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.btn-success:hover {
+    background-color: #1daa4c;
+}
+
+.btn-disabled {
+    cursor: not-allowed;
+    background-color: #c1c1c1;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}

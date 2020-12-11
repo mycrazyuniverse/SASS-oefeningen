@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS naar SCSS</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://pixldesign.be/examples/sass-syntra.css"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+
+    <style></style>
+  </head>
+
+  <body id="variables">
+    <!-- Add your site or application content here -->
+
+    <div class="container-fluid">
+      <h1 class="section-title">Variabeles</h1>
+      <div class="oefening">
+        <div class="opgave">
+          <h3 class="opgave-title">opgave:</h3>
+          <p>
+            Zet deze CSS om naar SCSS focus op gebruiken van <b>variabeles</b>.
+          </p>
+          <pre>
+                p{
+                  font-family: 'Open Sans',
+                  sans-serif;
+                }
+
+                h1,
+                h2,
+                h3,
+                h4,
+                h5 {
+                  font-family: 'Open Sans', sans-serif;
+                  font-weight: bold;
+                }
+
+                i {
+                  font-family: 'Open Sans',
+                      sans-serif;
+                  font-style: italic;
+                }
+                      </pre
+          >
+          <h3 class="uitvoer-title">uitvoer:</h3>
+        </div>
+        <div class="uitvoer">
+          <h1>Heading</h1>
+          <p>Heading <i>italic</i></p>
+        </div>
+      </div>
+
+      <div class="oefening">
+        <div class="opgave">
+          <h3 class="opgave-title">opgave:</h3>
+          <p>Zet deze CSS om naar SCSS gebruik variabeles</p>
+          <p>
+            Deze oefening zet zich verder in volgende oefeningen. Zet dan ook in
+            apart bestand btn.scss
+          </p>
+          <pre>
+            .btn-primary {
+                cursor: pointer;
+                background-color: #6a7ed9;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-primary:hover{
+                background-color: #415bcf;
+            }
+
+            .btn-warning {
+                cursor: pointer;
+                background-color: #dda852;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-warning:hover {
+                background-color: #d39229;
+            }
+
+            .btn-error {
+                cursor: pointer;
+                background-color: #BF6A5B;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-error:hover{
+                background-color: #a65041;
+            }
+
+            .btn-success {
+                cursor: pointer;
+                background-color: #25d55f;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+
+            .btn-success:hover{
+                background-color: #1daa4c;
+            }
+
+            .btn-disabled {
+                cursor: not-allowed;
+                background-color: #c1c1c1;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+            }
+          </pre>
+          <h3 class="uitvoer-title">uitvoer:</h3>
+        </div>
+        <div class="uitvoer">
+          <a class="btn-primary">primary</a>
+          <a class="btn-success">success</a>
+          <a class="btn-warning">success</a>
+          <a class="btn-error">error</a>
+          <a class="btn-disabled">disabled</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

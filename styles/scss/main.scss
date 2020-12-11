@@ -1,0 +1,322 @@
+
+/*
+    --------- VARIABLES ----------
+*/
+
+/*
+    Zet deze CSS over naar SCSS gebruik variabeles
+*/
+
+p {
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-weight: bold;
+}
+
+i {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-style: italic;
+}
+
+
+
+/*
+    Schrijf volgende CSS als nested SCSS
+*/
+
+a {
+    text-decoration: none;
+}
+
+a::hover {
+    text-decoration: underline;
+}
+
+
+
+/*
+    --------- NEST ----------
+*/
+
+/*
+    Schrijf volgende CSS als nested SCSS
+*/
+
+a {
+    text-decoration: none;
+}
+
+a::hover {
+    text-decoration: underline;
+}
+
+
+/*
+  Schrijf volgende CSS als nested:
+*/
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+
+
+/*
+    --------- MATH ----------
+*/
+
+/*
+     Zorg dat deze div 50px breed en 25px hoog. Pas huidige waarden niet aan,
+     ipv. gebruik wiskundige formule om dit te bereiken.
+*/
+
+.math {
+    width: 10px;
+    height: 20px;
+}
+
+
+
+
+/*
+    --------- COLOR ----------
+*/
+
+/*
+    Maak de 
+    circle1, moet huidige kleur 20% lichter
+    circle2, moet huidige kleur 30% donkerder
+    circle3, moet huidige kleur 60% transparantie hebben
+    circle4, moet huidige kleur omgezet worden in grijswaarden.
+    circle5, moet complimantair kleur van huidige kleur bevatten
+
+    gebruik enkel de bestaande SASS functies om dit te bereiken
+*/
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 10px;
+    float: left;
+}
+
+.circle1 {
+    background-color: #1a73e8;
+}
+
+.circle2 {
+    background-color: #1a73e8;
+}
+
+.circle3 {
+    background-color: #1a73e8;
+}
+
+.circle4 {
+    background-color: #1a73e8;
+}
+
+.circle5 {
+    background-color: #1a73e8;
+}
+
+
+
+/*
+    --------- EXTEND ----------
+*/
+
+/*
+  Schrijf volgende CSS gebruik SCSS "extends" en variables
+*/
+
+a.twitter {
+    min-width: 100px;
+    padding: 1em;
+    border-radius: 1em;
+    background: #55acee;
+    color: #fff;
+}
+
+span.facebook {
+    min-width: 100px;
+    padding: 1em;
+    border-radius: 1em;
+    background: #3b5998;
+    color: #fff;
+}
+
+
+/*
+  Schrijf volgende CSS naar SCSS en gebruik het "extends" feature in SASS:
+*/
+.success {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+    border-color: green;
+}
+
+.error {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+    border-color: red;
+}
+
+.warning {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+    border-color: yellow;
+}
+
+
+
+/*
+    --------- Mixin ----------
+*/
+
+/*
+  Schrijf volgende CSS aan de hand van een SCSS mixin.
+  Daag jezelf uit en schrijf de mixin zelf!
+
+  Net iets te ingewikkeld? 
+  Dan kun de mixin die moet toepassen, hier zelf hier terug vinden.
+  https://gist.github.com/mycrazyuniverse/a3faf825eacb5ab13e9b0b57a80475b8
+*/
+
+.box {
+    background-color: gray;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.box-square {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+
+.box-rounded {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+/* opgave 2 */
+
+.box-rotate {
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+
+/*
+    --------- MAP ----------
+*/
+
+/*
+    Schrijf volgende CSS naar SCSS gebruik de map uitbreiding van variablen die wij net leerde.
+*/
+
+.map .title1 {
+    color: darkorange;
+}
+
+.map .title2 {
+    color: royalblue;
+}
+
+.map .title3 {
+    color: springgreen;
+}
+
+
+/*
+    Zet deze CSS stap voor stap om naar SCSS
+*/
+
+.btn-primary {
+    cursor: pointer;
+    background-color: #6a7ed9;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.btn-primary:hover{
+    background-color: #415bcf;
+}
+
+.btn-warning {
+    cursor: pointer;
+    background-color: #dda852;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.btn-warning:hover {
+    background-color: #d39229;
+}
+
+.btn-error {
+    cursor: pointer;
+    background-color: #BF6A5B;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.btn-error:hover{
+    background-color: #a65041;
+}
+
+.btn-success {
+    cursor: pointer;
+    background-color: #25d55f;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.btn-success:hover{
+    background-color: #1daa4c;
+}
+
+.btn-disabled {
+    cursor: not-allowed;
+    background-color: #c1c1c1;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}

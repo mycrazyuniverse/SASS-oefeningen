@@ -1,0 +1,17 @@
+/* 
+
+De kolommen moeten allemaal een willigkeur kleur krijgen,
+zo dat je ze duidelijk kan onderscheiden. 
+- Deze random kleuren moet via SASS mixin of functie bepaald worden. 
+- Het toekennen van random kleuren moet zonder herhalende code gebeuren. Dus geen .kolom1, .kolom2,
+... in je SCSS. 
+- Probeer voor te zorgen mocht er een kolom of groep bijkomen, wat hier geval is,
+dat zo weinig mogelijk werk is om ze ook van breedte en willekeurig kleur te voor zien. 
+
+Gebruik de zelfde functie voor beide groepen,
+pas enkel de waarden aan. Net iets te ingewikkeld? Dan kun de functie die moet toepassen,
+hier zelf hier terug vinden.
+
+https://gist.github.com/mycrazyuniverse/b46a08ab664e0838e929b3bc75bcbe2c
+
+*/
